@@ -9,13 +9,13 @@ A simple Flask RESTful app based on a Udemy course by Jośe Salvatierra.
 
 ## Retrieve items
 
-### curl command
+### Request
 
 ```console
-curl <url>/items
+curl http://mydomain.com/items
 ```
 
-### Output
+### Response
 
 ```json
 {
@@ -34,13 +34,13 @@ curl <url>/items
 
 ## Retrieve stores
 
-### curl command
+### Request
 
 ```console
-curl <url>/stores
+curl http://mydomain.com/stores
 ```
 
-### Output
+### Response
 
 ```json
 {
